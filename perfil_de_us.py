@@ -18,10 +18,12 @@ if int(edad)<10:
 else:
     print('Tu aventura ya comenzara')
 
-region = input('De cual region vienes?')
-if region == 'Kanto'
-
-
+region = input('De cual region vienes? ')
+if region == 'Kanto' and genero == 'chico':
+    print('Tu compañera es Mysty')
+else:
+    print('Tu compañero es Brook!')
+ 
 tipo = input('Que tipo de pokemon deseas fuego, planta, agua.')
 if tipo == 'fuego':
     print('Tu starter es Cyndaquil')
