@@ -1,10 +1,13 @@
 print('Hola, Soy el profesor Oak!')
-genero = input('Eres un chico o una chica? ')
- 
-if genero == "chico":
-    print('Bienvenido!')
-else:
-    print('Bienvenida!')
+while True:
+    if genero == "chico":
+        print('Bienvenido!')
+        break
+    elif genero == "chica":
+        print('Bienvenida!')
+        break
+    else:
+        genero = input('Introduca chico o chica!: ')
 
 edad = input('Cual es tu edad? ')
 if int(edad)<10:
@@ -23,8 +26,8 @@ if region == 'Kanto' and genero == 'chico':
     print('Tu compañera es Mysty')
 else:
     print('Tu compañero es Brook!')
- 
-tipo = input('Que tipo de pokemon deseas fuego, planta, agua.')
+while True: 
+ tipo = input('Que tipo de pokemon deseas fuego, planta, agua.')
 if tipo == 'fuego':
     print('Tu starter es Cyndaquil')
 elif tipo == 'planta' :
